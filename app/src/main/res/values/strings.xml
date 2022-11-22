@@ -6,11 +6,12 @@
     <string name="rbtn_title_good">Good ( 18% )</string>
     <string name="rbtn_title_ok">OK ( 15% )</string>
     <string name="rbtn_title_other">Custom (%): </string>
-    <string name="et_hint_other">percentage of Tip</string>
+    <string name="et_hint_other">Custom percentage</string>
     <string name="qsn_ask_for_round">Round the tip?</string>
     <string name="btn_text_calculate">Calculate</string>
     <string name="text_result">Tip Amount: %s</string>
     <string name="btn_reset_text">reset</string>
     <string name="tk">\n Tk</string>
+    <string name="check_text">hello</string>
 </resources>
 
