@@ -1,6 +1,6 @@
 package com.kamrulhasan.tiptime
 
-import android.nfc.Tag
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -13,7 +13,7 @@ import kotlin.math.ceil
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private val tag: String = "MainActivity"
-    private val mgs: String = "logcat"
+//    private val mgs: String = "logcat"
 
     // @Activity onCreate Function
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
         }
         var cost = binding.etPrice.text.toString().toDouble() * tipPercentage
         if (binding.swtRound.isChecked) {
-            cost = kotlin.math.ceil(cost)
+            cost = ceil(cost)
             Log.d(tag, "Round is checked.")
         }
         val tipCurrency = NumberFormat.getCurrencyInstance().format(cost)
