@@ -142,14 +142,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_calculate" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btn_reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/border_radius"
-        android:backgroundTint="@color/light_red"
-        android:text="@string/btn_reset_text"
+        android:src="@drawable/ic_baseline_restart_alt_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+<!--    android:background="@drawable/border_radius"-->
+<!--    android:backgroundTint="@color/light_red"-->
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

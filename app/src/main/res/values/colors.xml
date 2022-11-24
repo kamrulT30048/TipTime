@@ -12,5 +12,12 @@
     <color name="red">#FF0000</color>
     <color name="light_red">#FF6363</color>
     <color name="lightGreen">#6BFF36</color>
-
+    <color name="primaryColor">#1a237e</color>
+    <color name="primaryLightColor">#534bae</color>
+    <color name="primaryDarkColor">#000051</color>
+    <color name="secondaryColor">#5d4037</color>
+    <color name="secondaryLightColor">#8b6b61</color>
+    <color name="secondaryDarkColor">#321911</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#ffffff</color>
 </resources>
